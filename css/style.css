@@ -1,0 +1,155 @@
+@font-face {
+	font-family: "BebasNeue";
+	src: url("../fonts/BebasNeue.ttf");
+	font-size: 1em;
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: "BebasNeue";
+}
+
+section {
+	width: 100%;
+	height: 100%;                        /* para falta de suporte */  
+	/*height: -webkit-calc(100% - 0px);*/  /* para Chrome */
+	/*height: -moz-calc(100% - 0px);*/     /* para Firefox */
+	/*height: calc(100% - 0px);*/          /* para suporte nativo */
+}
+
+section .nav-left {
+	height: 100%;
+	width: 250px;
+	background-color: #60be86;
+	position: fixed;
+}
+
+section .nav-left img {
+	width: 150px;
+	position: relative;
+	left: 20%;
+	margin-top: 60%;
+	border-radius: 80px;
+	border: 10px solid #97D4AF;
+}
+
+section .nav-left ul {
+	list-style-type: none;
+	top: 10%;
+	left: -10%;
+	position: relative;
+	text-align: center;
+}
+
+section .nav-left ul li {
+	margin-bottom: 10px;
+}
+
+section .nav-left ul li a {
+	font-size: 1.5em;
+	color: #fff;
+}
+
+section .presentation {
+	width: 75%;
+	/*width: -webkit-calc(100% - 250px);*/  /* para Chrome */
+	/*width: -moz-calc(100% - 250px); */   /* para Firefox */
+	/*width: calc(100% - 250px);*/        /* para suporte nativo */
+	height: 100%;
+	position: relative;
+	left: 250px;	
+	margin-right: 50px;
+	padding-top: 100px;
+}
+
+section .presentation h1 {
+	margin: 0;
+	/*margin-top: 250px;*/
+	font-size: 8em;
+	margin-left: 50px;
+}
+
+section .presentation h2{
+	margin: 0;
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 2em;
+}
+
+section .presentation p {
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+
+section .list-socials {
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+section .list-socials li {
+	display: inline-block;
+}
+
+section .list-socials li a {
+	display: block;
+	margin-right: 20px;
+	font-size: 2em;
+	background-color: #3f3f3f;
+	border-radius: 40px;
+	color: #fff;
+	width: 50px;	
+	height: 50px;
+	text-align: center;
+}
+
+section .list-socials li a:hover {
+	background-color: #60be86;
+}
+
+section .list-socials i {
+	margin: 10px 0;
+}
+
+section .skills {
+	width: 75%;
+	height: 100%;
+	left: 250px;
+	margin-right: 50px;
+	position: relative;
+	padding-top: 100px;
+}
+
+section .skills h1 {
+	margin: 0;
+	margin-left: 50px;
+	font-size: 8em;
+}
+
+section .skills h2{
+	margin: 0;
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 2em;
+}
+
+section .skills ul {
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+section .skills ul li {
+	margin-right: 20px;
+}
+
+section .skills ul li i {
+	font-size: 3em;
+	color: #949494;
+}
+
+section .skills ul li i:hover {
+	color: #60be86;
+}

@@ -113,6 +113,37 @@
 	    margin-bottom: 10px;
 	}
 
+	section .education {
+		margin-left: -250px;
+		width: 100%;
+		margin-right: 10px;
+		padding-top: 100px;
+	}
+
+	section .education h1 {
+		font-size: 7em;
+	}
+
+	section .experience {
+		margin-left: -250px;
+		width: 100%;
+		margin-right: 10px;
+		padding-top: 100px; 
+	}
+
+	section .experience h1 {
+		font-size: 6em;
+	}
+
+	section .interests {
+		margin-left: -250px;
+		margin-right: 10px;
+	}
+
+	section .interests h1 {
+		font-size: 6em;
+	}
+
 
 }
 

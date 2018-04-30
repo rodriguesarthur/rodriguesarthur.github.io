@@ -46,6 +46,60 @@ $(document).ready(function(){
 
 		$("header").removeClass("open-menu");
 
+	});	
+
+	$("#education").click(function(){
+
+		$("html, body").animate({
+			scrollTop: $("div.education").offset().top
+		}, 1000)
+
+	});
+
+	$("#education-mobile").click(function(){
+
+		$("html, body").animate({
+			scrollTop: $("div.education").offset().top
+		}, 1000)
+
+		$("header").removeClass("open-menu");
+
+	});
+
+	$("#experience").click(function(){
+
+		$("html, body").animate({
+		scrollTop: $("div.experience").offset().top
+		}, 1000)
+
+	});
+
+	$("#experience-mobile").click(function(){
+
+		$("html, body").animate({
+			scrollTop: $("div.experience").offset().top
+		}, 1000)
+
+		$("header").removeClass("open-menu");
+
+	});
+
+	$("#interests").click(function(){
+
+		$("html, body").animate({
+			scrollTop: $("div.interests").offset().top
+		}, 1000)
+
+	});
+
+	$("#interests-mobile").click(function(){
+
+		$("html, body").animate({
+			scrollTop: $("div.interests").offset().top
+		}, 1000)
+
+		$("header").removeClass("open-menu");
+
 	});
 
 });

@@ -41,7 +41,7 @@
 		position: relative;
 		margin-left: 25%;
 		margin-top: 150px;
-		border-radius: 50px;
+		/*border-radius: 50px;*/
 		border: 10px solid #97D4AF;
 	}
 
@@ -73,8 +73,14 @@
 		padding-top: 100px;
 	}
 
+	section .presentation h1 {
+		display: block;
+		margin-left: 20px!important;
+	}
+
 	section .presentation h2 {
 		line-height: 40px;
+		margin-left: 20px;
 	}
 
 	section .presentation p {
@@ -95,6 +101,10 @@
 		width: 100%;
 		margin-right: 10px;
 		padding-top: 100px;
+	}
+
+	section .skills h1 {
+		font-size: 6em;
 	}
 
 	section .skills h2 {

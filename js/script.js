@@ -12,6 +12,16 @@ $(document).ready(function(){
 
 	});
 
+	$("#img-user-mobile").click(function(){
+
+		$("html, body").animate({
+			scrollTop: $("div.presentation").offset().top
+		}, 1000)
+
+		$("header").removeClass("open-menu");
+
+	});
+
 	$("#about").click(function(){
 
 		$('html, body').animate({

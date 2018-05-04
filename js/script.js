@@ -112,4 +112,10 @@ $(document).ready(function(){
 
 	});
 
+	$("#menu-mobile-mask").click(function(){
+
+		$('header').removeClass('open-menu');
+
+	});
+
 });

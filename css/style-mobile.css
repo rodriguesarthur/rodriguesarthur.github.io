@@ -1,4 +1,5 @@
-@media only screen and (max-width: 767px) {
+/* MAX-WIDTH 767PX */
+@media only screen and (max-width: 768px) {
 
 	section .nav-left {
 		display: none;
@@ -19,6 +20,7 @@
 		height: 30px;
 		background-color: transparent;
 		border: 1px solid #97D4AF;
+		outline: none;
 	}
 
 	header #btn-bars i {
@@ -34,6 +36,16 @@
 		z-index: 9;
 		left: -50%;
 		transition: 1s;
+	}
+
+	header.open-menu #menu-mobile-mask {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		background-color: rgba(0, 0, 0, 0.5);
+		top: 0;
+		left: 0;
+		z-index: 8;
 	}
 
 	header #img-user-mobile {
@@ -70,12 +82,12 @@
 		margin-left: -250px;
 		width: 100%;
 		margin-right: 10px;
-		padding-top: 100px;
+		padding-top: 50px;
 	}
 
 	section .presentation h1 {
 		display: block;
-		margin-left: 20px!important;
+		margin-left: 20px;
 	}
 
 	section .presentation h2 {
@@ -154,9 +166,24 @@
 		font-size: 6em;
 	}
 
+	html, body .visible-xs {
+		display: block!important;
+	}
+
 
 }
 
+/* MAX-WIDTH 320PX */
+@media only screen and (max-width: 400px) {
+
+	body, html h1 {
+		font-size: 1em;
+	}
+
+}
+
+
+/* MAX-HEIGHT 540PX */
 @media only screen and (max-height: 540px) {
 
 	section .nav-left img {

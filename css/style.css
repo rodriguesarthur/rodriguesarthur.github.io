@@ -1,13 +1,13 @@
 @font-face {
-	font-family: "BebasNeue";
-	src: url("../fonts/BebasNeue.ttf");
+	font-family: 'BebasNeue';
+	src: url('../fonts/BebasNeue.ttf');
 	font-size: 1em;
 }
 
 html, body {
 	margin: 0;
 	height: 100%;
-	font-family: "BebasNeue";
+	font-family: 'BebasNeue';
 }
 
 section {
@@ -49,6 +49,12 @@ section .nav-left ul li {
 section .nav-left ul li a {
 	font-size: 1.5em;
 	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+section .nav-left ul li a:hover {
+	color: #CFDCD4;
 }
 
 section .presentation {

@@ -1,5 +1,19 @@
 $(document).ready(function(){
 
+	$(window).scroll(function(){
+		if ($(document).scrollTop() > 300 ) {
+			$('#box-btn-up').css('bottom','20px');
+		} else {
+			$('#box-btn-up').css('bottom','-80px');
+		};
+	});
+
+	$('#box-btn-up').click(function(){
+		$('html, body').animate({
+			scrollTop: 0
+		}, 1000);
+	});
+
 	$("#btn-bars").click(function(){
 		$("header").toggleClass("open-menu");
 	});

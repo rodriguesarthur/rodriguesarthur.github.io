@@ -170,6 +170,15 @@
 		display: block!important;
 	}
 
+	#box-btn-up {
+	width: 35px;
+	height: 35px;
+	}
+
+	#box-btn-up a i {
+		font-size: 2em;
+	}
+
 
 }
 

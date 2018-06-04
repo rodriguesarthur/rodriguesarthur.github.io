@@ -8,123 +8,66 @@ $(document).ready(function(){
 		};
 	});
 
+	$('.tool-tip').tooltip('enable');
+
+	$("#btn-bars").click(function(){
+		$("header").toggleClass("open-menu");
+	});
+
 	$('#box-btn-up').click(function(){
 		$('html, body').animate({
 			scrollTop: 0
 		}, 1000);
 	});
 
-	$("#btn-bars").click(function(){
-		$("header").toggleClass("open-menu");
-	});
-
-	$("#img-user").click(function(){
-
-		$("html, body").animate({
-			scrollTop: $("div.presentation").offset().top
-		}, 1000)
-
-	});
-
-	$("#img-user-mobile").click(function(){
-
-		$("html, body").animate({
-			scrollTop: $("div.presentation").offset().top
-		}, 1000)
-
-		$("header").removeClass("open-menu");
-
-	});
-
-	$("#about").click(function(){
+	$(".go-up").click(function(){
 
 		$('html, body').animate({
 			scrollTop: $("div.presentation").offset().top
-		}, 1000)
-
-	});
-
-	$("#about-mobile").click(function(){
-
-		$('html, body').animate({
-			scrollTop: $("div.presentation").offset().top
-		}, 1000)
+		}, 1000);
 
 		$("header").removeClass("open-menu");
-
 	});
 
-	$("#skills").click(function(){
+	$(".go-skills").click(function(){
 
 		$('html, body').animate({
 			scrollTop: $("div.skills").offset().top
-		}, 1000)
-
-	});
-
-	$("#skills-mobile").click(function(){
-
-		$('html, body').animate({
-			scrollTop: $("div.skills").offset().top
-		}, 1000)
+		}, 1000);
 
 		$("header").removeClass("open-menu");
+	});
 
-	});	
 
-	$("#education").click(function(){
+	$(".go-education").click(function(){
 
 		$("html, body").animate({
 			scrollTop: $("div.education").offset().top
-		}, 1000)
-
-	});
-
-	$("#education-mobile").click(function(){
-
-		$("html, body").animate({
-			scrollTop: $("div.education").offset().top
-		}, 1000)
+		}, 1000);
 
 		$("header").removeClass("open-menu");
-
 	});
 
-	$("#experience").click(function(){
+
+	$(".go-experience").click(function(){
 
 		$("html, body").animate({
 		scrollTop: $("div.experience").offset().top
-		}, 1000)
-
-	});
-
-	$("#experience-mobile").click(function(){
-
-		$("html, body").animate({
-			scrollTop: $("div.experience").offset().top
-		}, 1000)
+		}, 1000);
 
 		$("header").removeClass("open-menu");
-
 	});
 
-	$("#interests").click(function(){
+
+	$(".go-interests").click(function(){
 
 		$("html, body").animate({
 			scrollTop: $("div.interests").offset().top
-		}, 1000)
-
-	});
-
-	$("#interests-mobile").click(function(){
-
-		$("html, body").animate({
-			scrollTop: $("div.interests").offset().top
-		}, 1000)
+		}, 1000);
 
 		$("header").removeClass("open-menu");
-
 	});
+
 
 	$("#menu-mobile-mask").click(function(){
 

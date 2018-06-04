@@ -89,6 +89,17 @@ section .presentation h2{
 	font-size: 2em;
 }
 
+section .presentation .btn-lg {
+	margin-top: 50px;
+	margin-left: 50px;
+	background-color: #60be86;
+	color: #FFF;
+}
+
+section .presentation .btn-lg:hover{
+	transform: scale(1.1);
+}
+
 section .presentation p {
 	margin-left: 50px;
 	margin-top: 20px;
@@ -177,8 +188,17 @@ section .education {
 
 section .education h1 {
 	margin: 0;
+	margin-bottom: 50px;
 	margin-left: 50px;
 	font-size: 8em;
+}
+
+section .education .list-education p {
+	font-size: 1.5em;
+}
+
+section .education .list-education small {
+	font-size: 1.2em;
 }
 
 section .experience {
@@ -192,8 +212,17 @@ section .experience {
 
 section .experience h1 {
 	margin: 0;
+	margin-bottom: 50px;
 	margin-left: 50px;
 	font-size: 8em;
+}
+
+section .experience .list-experience p {
+	font-size: 1.5em;
+}
+
+section .experience .list-experience small {
+	font-size: 1.2em;
 }
 
 section .interests {
@@ -209,6 +238,12 @@ section .interests h1 {
 	margin: 0;
 	margin-left: 50px;
 	font-size: 8em;
+}
+
+section .interests p {
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 1.5em;
 }
 
 #box-btn-up {
